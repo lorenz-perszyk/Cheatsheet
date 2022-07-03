@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Semantic HTML Cheatsheet</title>
+             <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="ressources/css/styles.css" type="text/css">
+        <link rel="stylesheet" href="ressources/css/reset.css" type="text/css">
+    </head>
+    <body>
+      <header>
+      <h1>SEMANTICS IN HTML</h1>
+      <p>HTML tags are seperated into semantic and non-semantic tags.
+        <br>In order to keep the code accesible, easy to read and maintain, it is
+        <br>considered best practice to use semantic tags whenever possible.
+      </p> 
+      </header>
+      
+      <main>
+      <!--  T A B L E #1:  N O N  S E M A N T I C  -->
+      <table>
+        <caption>Non-Semantic</caption>
+        <thead>
+            <tr>
+                <th scope="col">Tag</th>
+                <th scope="col">Function</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tag">&lt;div&gt</td>
+                <td class="function">The generic block container for flow content.</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;span&gt</td>
+                <td class="function">A generic inline container for phrasing content</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;embed&gt</td>
+                <td class="function">Embeds external content at the specified point in the document.
+                    This element is deprecated and should be avoided when possible.
+                </td>
+            </tr>
+        </tbody>
+      </table>
+
+      <!--  T A B L E #2: S E M A N T I C  -->
+      <table>
+        <caption>Semantic</caption>
+        <thead>
+            <tr>
+                <th scope="col">Tag</th>
+                <th scope="col">Function</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="tag">&lt;header&gt</td>
+                <td class="function"> The header represents introductory content, typically a group of introductory or navigational aids.</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;main&gt</td>
+                <td class="function">This element represents the dominant content of the body of a document. </td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;footer&gt</td>
+                <td class="function"> The footer typically contains information about the author of the section, copyright data or links to related documents.</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;nav&gt</td>
+                <td class="function">Common examples of navigation sections are menus, tables of contents, and indexes.</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;table&gt</td>
+                <td class="function">This element represents information presented in a two-dimensional table comprised of rows and columns of cells containing data.</td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;h1&gt to &lt;h6&gt</td>
+                <td class="function">elements represent six levels of section headings. &lt;h1&gt; is the highest section level and &lt;h6&gt; is the lowest level. </td>
+            </tr>
+            <tr>
+                <td class="tag">&lt;p&gt</td>
+                <td class="function">HTML paragraphs can be any structural grouping of related content, such as images or form fields.</td>
+            </tr>
+        </tbody>
+      </table>
+    </main>
+
+    <!--  F O O T E R  S E C T I O N  -->
+    <footer>
+        <div class="footer">
+            <p class="name">Lorenz Perzyk</p>
+            <p class="year">2022</p>
+        </div>
+    </footer>
+    
+</body>
+</html>

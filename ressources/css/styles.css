@@ -1,0 +1,79 @@
+/*  G E N E R A L  */
+
+body {
+    background-color: #fefedf;
+    margin: 0 auto;
+    min-width: 450px;
+    max-width: 650px;
+    font-family: Tahoma, sans-serif;
+}
+
+h1, 
+p, 
+caption {
+    text-align: center;
+}
+
+h1 {
+    letter-spacing: 3px;
+    color: #845ec2;
+}
+
+/*  T A B L E  */
+
+table {
+    width: 100%;
+    text-align: left;
+    border-radius: 5px;
+    border-collapse: separate;
+    border-spacing: 4px;
+}
+
+table,
+th,
+td {
+  border: 1px solid #845ec2;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+th {
+  background-color: #845ec2CC;
+  color: white;
+  letter-spacing: 1px;
+}
+
+caption {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 50px 0 15px 0;
+}
+
+.tag {
+    font-family: 'IBM Plex Mono', monospace;
+    color: #845ec2;
+    width: 25%;    
+}
+
+
+/*  F O O T E R */
+
+footer {
+    width: 100%;
+    border-top: 1px solid #00c2a8;
+    margin: 70px 0;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.name {
+    float: left;
+}
+
+.year {
+    float: right;
+}
